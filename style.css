@@ -13,16 +13,23 @@ a{
    
 }
 
-header{
-    width: 100%; /* 1140px for large screen */
+header {
+    width: 100%; /* Ensures full width */
     height: 50px;
     display: flex;
     align-items: center;
     position: relative;
-    z-index: 100; /* to make it on top of the carousel  z-index only work when position is relative*/
+    z-index: 100;
     text-shadow: 0 5px 10px #0004;
-    padding-left: 11%;
     background: rgba(0, 0, 0, 0.3); /* Dark overlay */
+}
+.header-container {
+    width: 80%;
+    max-width: 1140px;
+    margin: auto; /* Centers content */
+    display: flex;
+    align-items: center;
+    
 }
 
 
